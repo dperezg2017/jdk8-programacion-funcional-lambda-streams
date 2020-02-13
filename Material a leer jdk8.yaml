@@ -1,0 +1,40 @@
+1: Utilitario:
+
+    test: 
+     public static void main (String[] args) {
+       List<String> nombres = Arrays.asList("cortocortocorto", "medianomediano", "largo");
+       List<Integer> numeros = Arrays.asList(5,7,1,6,3,4,2);
+       
+       Comparator<String> comparadorLongitud = (o1, o2) -> o1.length() - o2.length();
+       Comparator<Integer> ordenaNumero = (o1,o2) -> o1.compareTo(o2);
+       
+       Collections.sort(nombres,comparadorLongitud);
+       Collections.sort(numeros,ordenaNumero);
+       Collections.reverse(numeros);
+       
+       System.out.println(nombres);
+       System.out.println(numeros);
+     }
+    resultado:
+      [largo, medianomediano, cortocortocorto]
+      [7, 6, 5, 4, 3, 2, 1]
+
+2: Funcional Interface: se agrega la anotacion para definirlo, solo se aceptan un metodo abstract
+
+	 @FunctionalInterface
+	 public interface FunctionalService {
+  
+	     int suma(int a, int b);
+  
+	     default int suma (int a, int b, int c){
+	         return suma(a,suma(a,b));
+	     }
+	     static int suma3(int a, int b, int c){
+	         return 1;
+	     }
+	 }
+
+
+  
+
+  
