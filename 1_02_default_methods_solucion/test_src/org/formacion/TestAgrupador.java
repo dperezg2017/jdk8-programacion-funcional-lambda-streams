@@ -1,4 +1,4 @@
-package org.formacion;
+zpackage org.formacion;
 
 import org.junit.Test;
 
