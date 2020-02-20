@@ -2,58 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4788eb7-93ae-46ba-af17-be2f5ef13c3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-tipos-lambda.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11-lambda-expressions.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12-jdk-functional-interfaces.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_02_lambda_expressions/bin/org/formacion/Constante.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_02_lambda_expressions/bin/org/formacion/InicializadorArrays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_02_lambda_expressions/bin/org/formacion/LambdasFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_02_lambda_expressions/src/org/formacion/LambdasFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/src/org/formacion/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_03_optional_solucion/src/org/formacion/Persona2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/Persona2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/Validador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/LabLambdaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/controller/LambdaBasicoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service/LambdaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service/LambdaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/util/Utilidades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LabLambdaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/TestAgrupadorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/TestLambdas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/TestOptional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/LambdaBasico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/LambdaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/controller/LambdaBasicoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/controller/LambdasBasico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/service/LambdaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/service/LambdaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/target/classes/META-INF/lambda.demo.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service/LambdaMethodImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service/LambdaMethodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/test_src/org/formacion/TestAgrupador.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_02_default_methods_solucion/test_src/org/formacion/TestAgrupador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/service/FunctionalService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/lambda.demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/lambda.demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/Agrupador.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service/AgrupadorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/AgrupadorConArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service/AgrupadorServiceConArrayImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/AgrupadorConList.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service/AgrupadorServiceConListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/Problema.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/Problema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/target/classes/Agrupador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/target/classes/AgrupadorConArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/target/classes/AgrupadorConList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/target/classes/Problema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/controller/LambdaBasicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/controller/LambdaBasicoController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,10 +74,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestOptional.test_constructor_empty">
-    <configuration name="LambdaBasico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaBasico" />
-      <module name="lambda.demo" />
+  <component name="RunManager" selected="JUnit.LambdaMethodTest.metodo_Optinal">
+    <configuration name="LambdaMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labLambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lab" />
+      <option name="MAIN_CLASS_NAME" value="com.lab.LambdaMethodTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaMethodTest.metodo_Optinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labLambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lab" />
+      <option name="MAIN_CLASS_NAME" value="com.lab.LambdaMethodTest" />
+      <option name="METHOD_NAME" value="metodo_Optinal" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,38 +117,6 @@
       <option name="PACKAGE_NAME" value="com.lab" />
       <option name="MAIN_CLASS_NAME" value="com.lab.TestLambdas" />
       <option name="METHOD_NAME" value="test_extras" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLambdas.test_funcion_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labLambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.TestLambdas" />
-      <option name="METHOD_NAME" value="test_funcion_2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLambdas.test_function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labLambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.TestLambdas" />
-      <option name="METHOD_NAME" value="test_function" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -193,6 +138,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOptional.test_constructor_present" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labLambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lab" />
+      <option name="MAIN_CLASS_NAME" value="com.lab.TestOptional" />
+      <option name="METHOD_NAME" value="test_constructor_present" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LabLambdaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="labLambda" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lab.LabLambdaApplication" />
@@ -202,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LambdaMethodTest.metodo_Optinal" />
+        <item itemvalue="JUnit.LambdaMethodTest" />
+        <item itemvalue="JUnit.TestOptional.test_constructor_present" />
         <item itemvalue="JUnit.TestOptional.test_constructor_empty" />
         <item itemvalue="JUnit.TestLambdas.test_extras" />
-        <item itemvalue="JUnit.TestLambdas.test_funcion_2" />
-        <item itemvalue="JUnit.TestLambdas.test_function" />
-        <item itemvalue="Application.LambdaBasico" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +186,9 @@
       <workItem from="1581653286816" duration="9135000" />
       <workItem from="1581738267700" duration="7906000" />
       <workItem from="1581900506999" duration="69000" />
-      <workItem from="1581993408128" duration="4257000" />
+      <workItem from="1581993408128" duration="4440000" />
+      <workItem from="1582086847525" duration="1182000" />
+      <workItem from="1582174084900" duration="3606000" />
     </task>
     <servers />
   </component>
@@ -252,6 +215,16 @@
           <url>file://$PROJECT_DIR$/labLambda/src/main/java/com/lab/controller/LambdaBasicoController.java</url>
           <line>51</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/TestOptional.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

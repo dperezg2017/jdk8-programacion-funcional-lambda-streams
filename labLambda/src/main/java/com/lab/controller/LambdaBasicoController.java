@@ -52,6 +52,9 @@ public class LambdaBasicoController {
         obtenInicializador().inicializa(arrayLambda, valorLambda);
         LOGGER.info("Lambda arrayLambda: {} {}", arrayLambda.length, arrayLambda);
 
+
+
+
     }
 
     @GetMapping(value = "utilitario")
