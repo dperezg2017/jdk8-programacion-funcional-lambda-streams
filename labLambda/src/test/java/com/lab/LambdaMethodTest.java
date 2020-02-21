@@ -1,6 +1,8 @@
 package com.lab;
 
 import com.lab.Entity.Persona;
+import com.lab.Entity.Persona2;
+import com.lab.Entity.Persona3;
 import org.junit.Test;
 
 import java.util.Optional;
@@ -36,16 +38,28 @@ public class LambdaMethodTest {
         Optional<Persona> personaOptional5 = Optional.of(persona5);
         String  saluda5 = saludaReferenced(personaOptional5);
         System.out.println("saluda5: "+ saluda5);
+
+        Persona3 persona6 = new Persona3(Optional.of("hols"));
+        Optional<Persona3> personaOptional6 = Optional.of(persona6);
+        String  saluda6 = saludaOrElseFlatMap(personaOptional6);
+        System.out.println("saluda6: "+ saluda6);
+
     }
 
     String saludaReferenced(Optional<Persona> persona){
         return persona.map(Persona::getNombre)
-                .map("Hola: "::concat)
+                .map("Hola "::concat)
                 .orElse("Estoy solito");
     }
 
     String saludaOrElse(Optional<Persona> persona){
         return persona.map(it -> "Hola " + it.getNombre())
+                     .orElse("Estoy solo");
+    }
+
+    String saludaOrElseFlatMap(Optional<Persona3> persona){
+        return persona.flatMap(Persona3::getNombre)
+                .map("Hola "::concat)
                 .orElse("Estoy solito");
     }
 

@@ -20,7 +20,11 @@
       [7, 6, 5, 4, 3, 2, 1]
 
 2: Funcional Interface: se agrega la anotacion para definirlo, solo se aceptan un metodo abstract
+  Aprender mas de 40 interfaces funcionales que trae jdk 8 
+  - BiConsumer,BiFunction,BinaryOperator, Interface UnaryOperator<T>(interfaces para el caso específico de T primitivo
+    int, long, double)...
 
+  #Anotacion para aceptar solo interfaes funcionales y solo 1 abstract
 	 @FunctionalInterface
 	 public interface FunctionalService {
   
@@ -33,8 +37,21 @@
 	         return 1;
 	     }
 	 }
+   # Composiciones con Function
+   Function<Persona, String> nombre = per -> per.getNombre(); 
+   nombre = nombre.andThen(it -> it.toUpperCase());
 
+   #compose : añadir funcionalidad anterior
+   Function<Coche, Persona> propietario = it -> it.getPropietario(); 
+   Function<Persona, String> nombre = per -> per.getNombre();
+   Function<Coche, String> nombrePropietario = nombre.compose(propietario);
 
-  
+   #acepta parametro pero no produce resultado, sirve para imprimir por consola
+   Consumer<String> impresor = (it) -> {System.out.println(it);}
 
-  
+   #sin ningun parametro, que produce valor 
+   Random random = new Random();
+   Supplier<Integer> generador = () -> random.nextInt();
+
+   #resultado de evaluar un objeto es cierto o falso(IntPredicate LongPredicate DoublePredicate)
+   Predicate<String> cadenaCorta = it -> it.length() < 10;

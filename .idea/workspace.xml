@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4788eb7-93ae-46ba-af17-be2f5ef13c3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service/LambdaMethodImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service/LambdaMethodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/Persona3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/controller/LambdaBasicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/controller/LambdaBasicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Material a leer jdk8.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Material a leer jdk8.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,7 @@
       <recent name="com.lab" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lab.Entity" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -188,7 +188,8 @@
       <workItem from="1581900506999" duration="69000" />
       <workItem from="1581993408128" duration="4440000" />
       <workItem from="1582086847525" duration="1182000" />
-      <workItem from="1582174084900" duration="3606000" />
+      <workItem from="1582174084900" duration="3998000" />
+      <workItem from="1582252051316" duration="4559000" />
     </task>
     <servers />
   </component>
@@ -223,7 +224,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java</url>
-          <line>31</line>
+          <line>33</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
