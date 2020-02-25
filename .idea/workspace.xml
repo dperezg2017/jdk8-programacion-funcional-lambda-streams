@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4788eb7-93ae-46ba-af17-be2f5ef13c3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/Persona3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_4_0_b180830_0438.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_4_0_b180830_0359.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/PersonaOptional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/PersonaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/util/ReduccionesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LazynessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/StreamsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/TestReducciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/TestUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Material a leer jdk8.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Material a leer jdk8.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/MethodTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/labLambda/src/test/java/com/lab" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,12 +65,14 @@
       <recent name="com.lab" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lab" />
       <recent name="com.lab.Entity" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity" />
       <recent name="$PROJECT_DIR$/labLambda/src/test/java/com/lab" />
+      <recent name="$PROJECT_DIR$/labLambda/src/main/java/com/lab/util" />
+      <recent name="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity" />
       <recent name="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service" />
       <recent name="$PROJECT_DIR$/labLambda/src/main/java/com/lab" />
     </key>
@@ -74,8 +89,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LambdaMethodTest.metodo_Optinal">
-    <configuration name="LambdaMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LazynessTest.lazyness_ok">
+    <configuration name="LazynessTest.lazyness_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labLambda" />
       <extension name="coverage">
         <pattern>
@@ -84,29 +99,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.LambdaMethodTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaMethodTest.metodo_Optinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labLambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.LambdaMethodTest" />
-      <option name="METHOD_NAME" value="metodo_Optinal" />
+      <option name="MAIN_CLASS_NAME" value="com.lab.LazynessTest" />
+      <option name="METHOD_NAME" value="lazyness_ok" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLambdas.test_extras" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LazynessTest.stream_filtrar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labLambda" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +115,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.TestLambdas" />
-      <option name="METHOD_NAME" value="test_extras" />
+      <option name="MAIN_CLASS_NAME" value="com.lab.LazynessTest" />
+      <option name="METHOD_NAME" value="stream_filtrar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOptional.test_constructor_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsTest.stream_filtrar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labLambda" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +131,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.TestOptional" />
-      <option name="METHOD_NAME" value="test_constructor_empty" />
+      <option name="MAIN_CLASS_NAME" value="com.lab.StreamsTest" />
+      <option name="METHOD_NAME" value="stream_filtrar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOptional.test_constructor_present" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsTest.stream_ordenar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="labLambda" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +147,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.TestOptional" />
-      <option name="METHOD_NAME" value="test_constructor_present" />
+      <option name="MAIN_CLASS_NAME" value="com.lab.StreamsTest" />
+      <option name="METHOD_NAME" value="stream_ordenar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamsTest.stream_reduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="labLambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lab" />
+      <option name="MAIN_CLASS_NAME" value="com.lab.StreamsTest" />
+      <option name="METHOD_NAME" value="stream_reduce" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LambdaMethodTest.metodo_Optinal" />
-        <item itemvalue="JUnit.LambdaMethodTest" />
-        <item itemvalue="JUnit.TestOptional.test_constructor_present" />
-        <item itemvalue="JUnit.TestOptional.test_constructor_empty" />
-        <item itemvalue="JUnit.TestLambdas.test_extras" />
+        <item itemvalue="JUnit.LazynessTest.lazyness_ok" />
+        <item itemvalue="JUnit.LazynessTest.stream_filtrar" />
+        <item itemvalue="JUnit.StreamsTest.stream_reduce" />
+        <item itemvalue="JUnit.StreamsTest.stream_ordenar" />
+        <item itemvalue="JUnit.StreamsTest.stream_filtrar" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +205,11 @@
       <workItem from="1581993408128" duration="4440000" />
       <workItem from="1582086847525" duration="1182000" />
       <workItem from="1582174084900" duration="3998000" />
-      <workItem from="1582252051316" duration="4559000" />
+      <workItem from="1582252051316" duration="4619000" />
+      <workItem from="1582417886337" duration="1893000" />
+      <workItem from="1582437538208" duration="1411000" />
+      <workItem from="1582480411755" duration="853000" />
+      <workItem from="1582602325037" duration="6078000" />
     </task>
     <servers />
   </component>
@@ -223,9 +243,19 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/LambdaMethodTest.java</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/MethodTest.java</url>
+          <line>32</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/LazynessTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/LazynessTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

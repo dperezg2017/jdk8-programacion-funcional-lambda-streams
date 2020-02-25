@@ -55,3 +55,48 @@
 
    #resultado de evaluar un objeto es cierto o falso(IntPredicate LongPredicate DoublePredicate)
    Predicate<String> cadenaCorta = it -> it.length() < 10;
+
+3: Stream: codigo declarativo, gestion de la complejidad, integracion con API Funcional, uso potencial de paralelismo
+
+    /* metodo Simple */
+    private List<String> convertCollectionVersion(List<Persona> personas){
+        List<String> nombres = new ArrayList<>();
+        for (Persona persona:personas)
+            nombres.add(persona.getNombre());
+        return nombres;
+    }
+
+    /* metodo Streams */
+    private List<String> convertStreamVersion(List<Persona> personas){
+        return personas.stream()
+                .map(it -> it.getNombre())
+                .collect(Collectors.toList());
+    }
+
+      # Metodo STREAM PIPELINE para practicar con strem usando herramientas de el. 
+      @Test
+      public void stream_filtrar_ordenar_convertir() {
+          Persona persona = new Persona("Deyviz");
+          Persona persona2 = new Persona("Lesly");
+          Persona persona3 = new Persona("Arepa");
+          List<Persona> simplePersonas = new ArrayList<>();
+          simplePersonas.add(persona);
+          simplePersonas.add(persona2);
+          simplePersonas.add(persona3);
+          
+          String todos = simplePersonas.stream()
+                  .map(it -> it.getNombre())
+                  .sorted((o1,o2)->o1.length()+o2.length())
+                  .map(it -> "'"+it+"'")
+                  .reduce("",(a,b)->a+"\n"+b);
+
+          LOGGER.info("stream_filtrar :{}",todos);
+      }
+
+
+
+
+
+
+
+
