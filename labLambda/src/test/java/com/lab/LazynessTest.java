@@ -22,7 +22,7 @@ public class LazynessTest {
                 .sorted()
                 .reduce("",String::concat);
 
-        LOGGER.info("Lazyness_sorted :{}",strings);
+        LOGGER.info("Lazyness_ok:{}",strings);
     }
 
     @Test
@@ -32,7 +32,16 @@ public class LazynessTest {
         strings.sorted();
         // error ya que en el sorted lo invalida
         String p = strings.reduce("",String::concat);
-        LOGGER.info("Lazyness_sorted :{}",p);
+        LOGGER.info("lazyness_error :{}",p);
     }
 
+    @Test
+    public void lazyness_convertir_stream_stringbuilder() {
+
+        Stream<String> stream = Stream.of("a","b","c");
+        StringBuilder sb = new StringBuilder();
+        stream.forEach(s->sb.append(s));
+
+        LOGGER.info("lazyness_convertir_stream_stringbuilder :{}",sb);
+    }
 }

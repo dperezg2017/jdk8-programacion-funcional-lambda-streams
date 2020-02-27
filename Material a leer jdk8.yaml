@@ -93,8 +93,57 @@
           LOGGER.info("stream_filtrar :{}",todos);
       }
 
+      # Metodo para ordenar ok en el sorted
+      @Test
+      public void lazyness_ok() {
+  
+          String strings = Stream.of("b","c","a")
+                  .sorted()
+                  .reduce("",String::concat);
+  
+          LOGGER.info("Lazyness_ok:{}",strings);
+      }
 
+      # Metodo para ordenar con error en el sorted
+      @Test
+      public void lazyness_error() {
+  
+          Stream<String> strings = Stream.of("b","c","a");
+          strings.sorted();
+          // error ya que en el sorted lo invalida
+          String p = strings.reduce("",String::concat);
+          LOGGER.info("lazyness_error :{}",p);
+      }
 
+      # Metodo que convierte stream a stringbuilder
+      @Test
+      public void lazyness_convertir_stream_stringbuilder() {
+  
+          Stream<String> stream = Stream.of("a","b","c");
+          StringBuilder sb = new StringBuilder();
+          stream.forEach(s->sb.append(s));
+  
+          LOGGER.info("lazyness_convertir_stream_stringbuilder :{}",sb);
+      }
+4: Collector: grupo que ayuda como Utilitario - > public interface Collector<T(elementos),A(consumidor),R(resultado)>
+
+        # uso del collector por ejemplo metodo de agrupar por entidad -> escuela 
+        Map<String,List<Alumno> porEscuela = alumnos.stream().collect(Collectors.groupingBy(Alumno::getEscuela));
+        
+        # Si se no se desea usar la palabra Collectors
+        import static java.util.stream.Collectors.*;
+        Map<String,List<Alumno> porEscuela = alumnos.stream().collect(Collectors.groupingBy(Alumno::getEscuela));
+
+        #devuelve edad media 
+        Double edadMedia = personas.stream().collect(Collectors.averagingInt(Persona::getEdad));
+
+        #Devuelve set, conversion a collections
+        Set<Persona> set = personas.stream().collect(Collectors.toSet());
+
+        #Edad media 
+        Map<String,Double> porMunicipio = personas.stream().collect(
+        Collectors.groupingBy(Persona::getMunicipio,
+        Collectors.averagingInt(Persona::getEdad)))
 
 
 
