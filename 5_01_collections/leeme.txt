@@ -1,9 +1,0 @@
-También en este ejercicio tenéis que completar el código de:
-
-src/org/formacion/CollectionUtil.java
-
-siguiendo las instrucciones que encontrareis en la descripción de los métodos.
-
-Usad los tests para validar vuestra implementación.
-
-¡Suerte!

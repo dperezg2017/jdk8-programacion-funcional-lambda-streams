@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/jdk8-programacion-funcional-lambda-streams.iml" filepath="$PROJECT_DIR$/.idea/jdk8-programacion-funcional-lambda-streams.iml" />
-      <module fileurl="file://$PROJECT_DIR$/labLambda/labLambda.iml" filepath="$PROJECT_DIR$/labLambda/labLambda.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lambda/lambda.demo.iml" filepath="$PROJECT_DIR$/lambda/lambda.demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utilitario-java-11/utilitario-java-11.iml" filepath="$PROJECT_DIR$/utilitario-java-11/utilitario-java-11.iml" />
     </modules>
   </component>
 </project>

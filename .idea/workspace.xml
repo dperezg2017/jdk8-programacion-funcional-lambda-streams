@@ -1,14 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4788eb7-93ae-46ba-af17-be2f5ef13c3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/CollectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity/PersonaCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/ParallelStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/TestUtilCollection.java" afterDir="false" />
+    <list default="true" id="8ddb44b3-1361-4bad-b9c4-5391cce956d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/utilitario-java-11/src/main/java/com/util/entity/Inmueble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilitario-java-11/src/main/java/com/util/entity/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/BiConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/Utilitario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-default-methods.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-static-methods.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-tipos-lambda.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11-lambda-expressions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12-jdk-functional-interfaces.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/bin/org/formacion/Agrupador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/bin/org/formacion/AgrupadorConArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/bin/org/formacion/AgrupadorConList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/bin/org/formacion/TestAgrupador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/leeme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/src/org/formacion/Agrupador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/src/org/formacion/AgrupadorConArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/src/org/formacion/AgrupadorConList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods/test_src/org/formacion/TestAgrupador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/bin/org/formacion/Agrupador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/bin/org/formacion/AgrupadorConArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/bin/org/formacion/AgrupadorConList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/bin/org/formacion/TestAgrupador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/leeme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/src/org/formacion/Agrupador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/src/org/formacion/AgrupadorConArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/src/org/formacion/AgrupadorConList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_02_default_methods_solucion/test_src/org/formacion/TestAgrupador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/bin/org/formacion/Constante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/bin/org/formacion/InicializadorArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/bin/org/formacion/LambdasFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/bin/org/formacion/Operador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/bin/org/formacion/TestLambdas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/leeme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/src/org/formacion/LambdasFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_02_lambda_expressions/test_src/org/formacion/TestLambdas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/bin/org/formacion/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/bin/org/formacion/TestLambdas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/bin/org/formacion/Validador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/leeme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/src/org/formacion/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/src/org/formacion/Validador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_01_jdk_functional_interfaces_solucion/test_src/org/formacion/TestLambdas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/.settings/org.jboss.ide.eclipse.as.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/bin/org/formacion/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/bin/org/formacion/TestOptional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/bin/org/formacion/Vivienda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/leeme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/src/org/formacion/Persona2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/src/org/formacion/Vivienda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_03_optional_solucion/test_src/org/formacion/TestOptional.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/scopes/scope_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/.settings/org.jboss.ide.eclipse.as.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/bin/org/formacion/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/bin/org/formacion/PersonaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/bin/org/formacion/TestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/leeme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/src/org/formacion/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/src/org/formacion/PersonaUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_02_streams_pipeline_solucion/test_src/org/formacion/TestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_04_reducciones_mutables_solucion/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_04_reducciones_mutables_solucion/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_04_reducciones_mutables_solucion/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_04_reducciones_mutables_solucion/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_04_reducciones_mutables_solucion/bin/org/formacion/ReduccionesUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_04_reducciones_mutables_solucion/bin/org/formacion/TestReducciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_04_reducciones_mutables_solucion/leeme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_04_reducciones_mutables_solucion/src/org/formacion/ReduccionesUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_04_reducciones_mutables_solucion/test_src/org/formacion/TestReducciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/bin/org/formacion/CollectionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/bin/org/formacion/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/bin/org/formacion/TestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/leeme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/src/org/formacion/CollectionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/src/org/formacion/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_01_collections/test_src/org/formacion/TestUtil.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Material a leer jdk8.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Material a leer jdk8.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LazynessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/src/test/java/com/lab/LazynessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-API.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/collectors.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparator.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labLambda/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/labLambda/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/lambda.demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/lambda.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/target/classes/META-INF/lambda.demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/target/test-classes/TestAgrupador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/target/test-classes/TestIntroduccion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lazyness.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/method-references.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutables.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/optional.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallel-streams.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams-que-son.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +153,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,45 +160,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1XhCoswqFUTWgIDmHjOGr2Jo1ss" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1YY1QRA0pEI6FqHUEkW7KBHbdVx" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.lab" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lab" />
-      <recent name="com.lab.Entity" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/labLambda/src/main/java/com/lab/Entity" />
-      <recent name="$PROJECT_DIR$/labLambda/src/test/java/com/lab" />
-      <recent name="$PROJECT_DIR$/labLambda/src/main/java/com/lab/util" />
-      <recent name="$PROJECT_DIR$/labLambda/src/main/java/com/lab/service" />
-      <recent name="$PROJECT_DIR$/labLambda/src/main/java/com/lab" />
-    </key>
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -79,101 +187,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestUtilCollection.test_a_mayuscula">
-    <configuration name="LazynessTest.lazyness_convertir_stream_stringbuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labLambda" />
+  <component name="RunManager" selected="JUnit.Utilitario.utilitario_Collection">
+    <configuration name="BiConsumerTest.biconsumer_ForEach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utilitario-java-11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab.*" />
+          <option name="PATTERN" value="com.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.LazynessTest" />
-      <option name="METHOD_NAME" value="lazyness_convertir_stream_stringbuilder" />
+      <option name="PACKAGE_NAME" value="com.util" />
+      <option name="MAIN_CLASS_NAME" value="com.util.BiConsumerTest" />
+      <option name="METHOD_NAME" value="biconsumer_ForEach" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazynessTest.lazyness_error" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labLambda" />
+    <configuration name="Utilitario.arrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utilitario-java-11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab.*" />
+          <option name="PATTERN" value="com.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.LazynessTest" />
-      <option name="METHOD_NAME" value="lazyness_error" />
+      <option name="PACKAGE_NAME" value="com.util" />
+      <option name="MAIN_CLASS_NAME" value="com.util.Utilitario" />
+      <option name="METHOD_NAME" value="arrayList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamTest.strema_paralelo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labLambda" />
+    <configuration name="Utilitario.utilitario_Collection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utilitario-java-11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lab.*" />
+          <option name="PATTERN" value="com.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.ParallelStreamTest" />
-      <option name="METHOD_NAME" value="strema_paralelo2" />
+      <option name="PACKAGE_NAME" value="com.util" />
+      <option name="MAIN_CLASS_NAME" value="com.util.Utilitario" />
+      <option name="METHOD_NAME" value="utilitario_Collection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labLambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.ParallelStreamTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUtilCollection.test_a_mayuscula" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="labLambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.lab.TestUtilCollection" />
-      <option name="METHOD_NAME" value="test_a_mayuscula" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LabLambdaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="labLambda" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lab.LabLambdaApplication" />
+    <configuration name="UtilitarioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="utilitario-java-11" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.util.UtilitarioApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestUtilCollection.test_a_mayuscula" />
-        <item itemvalue="JUnit.ParallelStreamTest.strema_paralelo2" />
-        <item itemvalue="JUnit.ParallelStreamTest.test" />
-        <item itemvalue="JUnit.LazynessTest.lazyness_error" />
-        <item itemvalue="JUnit.LazynessTest.lazyness_convertir_stream_stringbuilder" />
+        <item itemvalue="JUnit.Utilitario.utilitario_Collection" />
+        <item itemvalue="JUnit.Utilitario.arrayList" />
+        <item itemvalue="JUnit.BiConsumerTest.biconsumer_ForEach" />
       </list>
     </recent_temporary>
   </component>
@@ -182,25 +256,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c4788eb7-93ae-46ba-af17-be2f5ef13c3d" name="Default Changelist" comment="" />
-      <created>1581489117020</created>
+      <changelist id="8ddb44b3-1361-4bad-b9c4-5391cce956d8" name="Default Changelist" comment="" />
+      <created>1583104696327</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581489117020</updated>
-      <workItem from="1581489118330" duration="1260000" />
-      <workItem from="1581565708073" duration="7056000" />
-      <workItem from="1581653286816" duration="9135000" />
-      <workItem from="1581738267700" duration="7906000" />
-      <workItem from="1581900506999" duration="69000" />
-      <workItem from="1581993408128" duration="4440000" />
-      <workItem from="1582086847525" duration="1182000" />
-      <workItem from="1582174084900" duration="3998000" />
-      <workItem from="1582252051316" duration="4619000" />
-      <workItem from="1582417886337" duration="1893000" />
-      <workItem from="1582437538208" duration="1411000" />
-      <workItem from="1582480411755" duration="853000" />
-      <workItem from="1582602325037" duration="6222000" />
-      <workItem from="1582765256374" duration="5754000" />
+      <updated>1583104696327</updated>
+      <workItem from="1583104697587" duration="23192000" />
     </task>
     <servers />
   </component>
@@ -212,43 +273,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/labLambda/src/main/java/com/lab/controller/LambdaBasicoController.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/TestOptional.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/MethodTest.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/LazynessTest.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/labLambda/src/test/java/com/lab/LazynessTest.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

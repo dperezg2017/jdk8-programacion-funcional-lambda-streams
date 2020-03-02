@@ -56,6 +56,13 @@
    #resultado de evaluar un objeto es cierto o falso(IntPredicate LongPredicate DoublePredicate)
    Predicate<String> cadenaCorta = it -> it.length() < 10;
 
+   2.1: Functions: 
+    2.1.1: BiConsumer: acepta 2 argumento 
+       - se recorres a traves de un map con forEach -> mapForEach.forEach(biConsumerForEach);
+       - Se setea con Accept(T1,T2) ->  biConsumerRow.accept(persona1, inmueble1);
+       - para setear 2 BiConsumer es con andThen -> biConsumerRow2.andThen(biConsumerRow3).accept(persona1, inmueble1);
+
+
 3: Stream: codigo declarativo, gestion de la complejidad, integracion con API Funcional, uso potencial de paralelismo
 
     /* metodo Simple */
