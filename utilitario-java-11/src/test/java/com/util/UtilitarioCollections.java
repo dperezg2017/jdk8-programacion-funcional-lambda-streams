@@ -5,8 +5,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.*;
+import java.util.zip.ZipEntry;
 
-public class Utilitario {
+public class UtilitarioCollections {
 
     private static final Logger LOOGER = LoggerFactory.getLogger(BiConsumerTest.class);
 
@@ -105,5 +106,8 @@ public class Utilitario {
         //unmodifiableList, no puede agregar otra fila a mi LIST unmodifiableList
         // listaIntegerUnmodifiableList.add(2);
 
+        // se generan 4 copias, y asu vez es inmutable, nadie puede agregar o alterar esa lista.
+        List<String> listaStringNCopies = Collections.nCopies(4,"deyviz");
+        LOOGER.info("List listaStringNCopies: {}", listaStringNCopies);
     }
 }
