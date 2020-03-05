@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ddb44b3-1361-4bad-b9c4-5391cce956d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34577ebaa461b56722e96124eb2d810a95e659ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c3f0bb6afc665241d45e34abde8eca7345278cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioZip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilitario-java-11/xmlTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34577ebaa461b56722e96124eb2d810a95e659ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c3f0bb6afc665241d45e34abde8eca7345278cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c3f0bb6afc665241d45e34abde8eca7345278cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/Utilitario.java" beforeDir="false" afterPath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioCollectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioZip.java" beforeDir="false" afterPath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioZip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilitario-java-11/xmlTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilitario-java-11/xmlTest4.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,39 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitarioZip.utilitario_comprimir_descomprimir_zip">
-    <configuration name="UtilitarioCollectors.utilitario_Collection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="utilitario-java-11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.util" />
-      <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioCollectors" />
-      <option name="METHOD_NAME" value="utilitario_Collection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UtilitarioCollectors.utilitario_Collectors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="utilitario-java-11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.util" />
-      <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioCollectors" />
-      <option name="METHOD_NAME" value="utilitario_Collectors" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UtilitarioZip.descomprimir_zip">
     <configuration name="UtilitarioZip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utilitario-java-11" />
       <extension name="coverage">
@@ -108,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitarioZip.utilitario_Collectors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitarioZip.comprimir_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utilitario-java-11" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +85,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.util" />
       <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioZip" />
-      <option name="METHOD_NAME" value="utilitario_Collectors" />
+      <option name="METHOD_NAME" value="comprimir_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitarioZip.comprimir_files" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utilitario-java-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.util" />
+      <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioZip" />
+      <option name="METHOD_NAME" value="comprimir_files" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilitarioZip.descomprimir_zip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="utilitario-java-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.util" />
+      <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioZip" />
+      <option name="METHOD_NAME" value="descomprimir_zip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilitarioZip.descomprimir_zip" />
+        <item itemvalue="JUnit.UtilitarioZip.comprimir_files" />
+        <item itemvalue="JUnit.UtilitarioZip.comprimir_file" />
         <item itemvalue="JUnit.UtilitarioZip.utilitario_comprimir_descomprimir_zip" />
         <item itemvalue="JUnit.UtilitarioZip" />
-        <item itemvalue="JUnit.UtilitarioZip.utilitario_Collectors" />
-        <item itemvalue="JUnit.UtilitarioCollectors.utilitario_Collectors" />
-        <item itemvalue="JUnit.UtilitarioCollectors.utilitario_Collection" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +167,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583104696327</updated>
       <workItem from="1583104697587" duration="23336000" />
-      <workItem from="1583209843835" duration="6118000" />
+      <workItem from="1583209843835" duration="6203000" />
+      <workItem from="1583377077825" duration="5964000" />
     </task>
     <servers />
   </component>
@@ -195,11 +195,6 @@
           <url>file://$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioCollectors.java</url>
           <line>26</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioZip.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

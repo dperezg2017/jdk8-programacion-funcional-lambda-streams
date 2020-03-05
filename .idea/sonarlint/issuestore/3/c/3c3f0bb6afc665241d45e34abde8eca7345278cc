@@ -1,23 +1,9 @@
 
-N
-java:S16023",Remove useless curly braces around statement(¾î·ùÿÿÿÿ8ÌœÃ‰.
-o	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹µà¨øÿÿÿÿ8ÌœÃ‰.
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖË’8ÌœÃ‰.
-N
-java:S1602Q",Remove useless curly braces around statement(Šïæ…ÿÿÿÿÿ8ÌœÃ‰.
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğŸ»üÿÿÿÿ8ÌœÃ‰.
-v
-java:S1192$"ZDefine a constant instead of duplicating this literal "Jr.Combate de Angamos 126" 6 times.(™ê8ÌœÃ‰.
-o	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“â™¦ûÿÿÿÿ8ÌœÃ‰.
-I
-java:S1602V",Remove useless curly braces around statement(Æø¨º8ÌœÃ‰.
-N
-java:S1602B",Remove useless curly braces around statement(êâ—–üÿÿÿÿ8ÌœÃ‰.
-G
-java:S26295"%Invoke method(s) only conditionally. (ŒËáòüÿÿÿÿ8ú‘Ì‰.
-G
-java:S2629D"%Invoke method(s) only conditionally. (ŒËáòüÿÿÿÿ8ú‘Ì‰.
-G
-java:S2629S"%Invoke method(s) only conditionally. (ŒËáòüÿÿÿÿ8ú‘Ì‰.
-G
-java:S2629X"%Invoke method(s) only conditionally. (ŒËáòüÿÿÿÿ8ú‘Ì‰.
+O
+java:S2699"-Add at least one assertion to this test case.(ğŸ»üÿÿÿÿ8ÊªŸ÷‰.
+J
+java:S2699"-Add at least one assertion to this test case.(ÖË’8ÊªŸ÷‰.
+O
+java:S2699="-Add at least one assertion to this test case.(¹µà¨øÿÿÿÿ8ÊªŸ÷‰.
+O
+java:S2699L"-Add at least one assertion to this test case.(“â™¦ûÿÿÿÿ8ÊªŸ÷‰.
