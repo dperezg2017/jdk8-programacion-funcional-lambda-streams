@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ddb44b3-1361-4bad-b9c4-5391cce956d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34577ebaa461b56722e96124eb2d810a95e659ec" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilitario-java-11/src/main/java/com/util/entity/PersonaLambdaOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioLambda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c3f0bb6afc665241d45e34abde8eca7345278cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c3f0bb6afc665241d45e34abde8eca7345278cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49aee74b1aaa2b94c064be89813d1a33c4e88d89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d685306b8bf26ddbfbb54de501d6c6a13bebe3c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d685306b8bf26ddbfbb54de501d6c6a13bebe3c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioZip.java" beforeDir="false" afterPath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioZip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilitario-java-11/xmlTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilitario-java-11/xmlTest4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilitario-java-11/FileComprimido.zip" beforeDir="false" afterPath="$PROJECT_DIR$/utilitario-java-11/FileComprimido.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilitario-java-11/filesComprimidos.zip" beforeDir="false" afterPath="$PROJECT_DIR$/utilitario-java-11/filesComprimidos.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilitario-java-11/src/main/java/com/util/entity/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/utilitario-java-11/src/main/java/com/util/entity/PersonaBiConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/BiConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/BiConsumerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +63,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UtilitarioZip.descomprimir_zip">
-    <configuration name="UtilitarioZip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UtilitarioLambda.test_printPersonsOlderThan">
+    <configuration name="UtilitarioLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utilitario-java-11" />
       <extension name="coverage">
         <pattern>
@@ -69,13 +73,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.util" />
-      <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioZip" />
+      <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioLambda" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitarioZip.comprimir_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitarioLambda.test_printPersonsOlderThan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utilitario-java-11" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +88,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.util" />
-      <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioZip" />
-      <option name="METHOD_NAME" value="comprimir_file" />
+      <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioLambda" />
+      <option name="METHOD_NAME" value="test_printPersonsOlderThan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitarioZip.comprimir_files" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilitarioZip.comprimir_directorio_zip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utilitario-java-11" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +105,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.util" />
       <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioZip" />
-      <option name="METHOD_NAME" value="comprimir_files" />
+      <option name="METHOD_NAME" value="comprimir_directorio_zip" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilitarioZip.utilitario_comprimir_descomprimir_zip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.util in utilitario-java-11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="utilitario-java-11" />
       <extension name="coverage">
         <pattern>
@@ -132,9 +136,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.util" />
-      <option name="MAIN_CLASS_NAME" value="com.util.UtilitarioZip" />
-      <option name="METHOD_NAME" value="utilitario_comprimir_descomprimir_zip" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilitarioLambda.test_printPersonsOlderThan" />
+        <item itemvalue="JUnit.UtilitarioLambda" />
+        <item itemvalue="JUnit.com.util in utilitario-java-11" />
+        <item itemvalue="JUnit.UtilitarioZip.comprimir_directorio_zip" />
         <item itemvalue="JUnit.UtilitarioZip.descomprimir_zip" />
-        <item itemvalue="JUnit.UtilitarioZip.comprimir_files" />
-        <item itemvalue="JUnit.UtilitarioZip.comprimir_file" />
-        <item itemvalue="JUnit.UtilitarioZip.utilitario_comprimir_descomprimir_zip" />
-        <item itemvalue="JUnit.UtilitarioZip" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,12 @@
       <updated>1583104696327</updated>
       <workItem from="1583104697587" duration="23336000" />
       <workItem from="1583209843835" duration="6203000" />
-      <workItem from="1583377077825" duration="5964000" />
+      <workItem from="1583377077825" duration="6305000" />
+      <workItem from="1583469663726" duration="4014000" />
+      <workItem from="1583700533187" duration="157000" />
+      <workItem from="1584383874685" duration="1097000" />
+      <workItem from="1584843716762" duration="5965000" />
+      <workItem from="1584912377766" duration="1915000" />
     </task>
     <servers />
   </component>
@@ -195,6 +202,36 @@
           <url>file://$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioCollectors.java</url>
           <line>26</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioZip.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioZip.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilitario-java-11/src/main/java/com/util/entity/PersonaLambdaOracle.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioLambda.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilitario-java-11/src/test/java/com/util/UtilitarioLambda.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/utilitario-java-11/src/main/java/com/util/entity/PersonaLambdaOracle.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

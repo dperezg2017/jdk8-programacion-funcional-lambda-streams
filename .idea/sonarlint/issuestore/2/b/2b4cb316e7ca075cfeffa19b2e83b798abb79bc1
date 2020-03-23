@@ -1,0 +1,6 @@
+
+T
+java:S2629L"7Use the built-in formatting to construct this argument.(¢ªãè8Áá¿Š.
+^
+java:S3457L"AFormat specifiers should be used instead of string concatenation.(¢ªãè8Áá¿Š.
+W	java:S125F"<This block of commented-out lines of code should be removed.(Äú‹n8õ„‹‹.

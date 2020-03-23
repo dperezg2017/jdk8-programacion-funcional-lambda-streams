@@ -1,12 +1,12 @@
 package com.util.entity;
 
-public class Persona {
+public class PersonaBiConsumer {
 
     private String nombre;
     private String apelligoPaterno;
     private String apellidoMatero;
 
-    public Persona(String nombre, String apelligoPaterno, String apellidoMatero) {
+    public PersonaBiConsumer(String nombre, String apelligoPaterno, String apellidoMatero) {
         this.nombre = nombre;
         this.apelligoPaterno = apelligoPaterno;
         this.apellidoMatero = apellidoMatero;
